@@ -1,0 +1,146 @@
+---
+#theme: minima
+
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dirt"
+
+plugins:
+  - jekyll-jupyter-notebook
+
+locale : "es-ES"
+title: ONAG Homepage
+description: ONAG Homepage
+url: https://banserver.bansheerocks.com/onag
+baseurl                  : "/onag"
+
+
+host: 0.0.0.0
+port: 4050
+
+
+# Load Page Scripts
+#head_scripts:
+#  - https://code.jquery.com/jquery-3.2.1.min.js
+#  - /assets/js/your-custom-head-script.js
+
+include: ["_pages", "_posts", "_notebooks"]
+
+
+masthead_title: "Home"
+
+breadcrumbs: true  # disabled by default
+breadcrumb_home_label : "Home"
+breadcrumb_separator  : "/"
+
+collections:
+    notebooks:
+        output: true
+        permalink: /:collection/:path/
+
+
+social:
+    type:  # Person or Organization (defaults to Person)
+    name:  # If the user or organization name differs from the site's name
+    links:
+        - "https://twitter.com/yourTwitter"
+        - "https://www.facebook.com/yourFacebook"
+        - "https://instagram.com/yourProfile"
+        - "https://www.linkedin.com/in/yourprofile"
+
+author:
+  name: "Oscar Noel"
+  avatar: "/assets/images/about/onag-photo.jpg"
+  bio: "Proud Geek" 
+  location: "Spain"
+  links:
+    - label: "Gmail"
+      icon: "fab fa-fw fa-gmail"
+      url: "https://gmail.com/mmistakes"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/mmistakes"
+      
+      
+footer:
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/mmistakes"
+        - label: "Youtube"
+          icon: "fab fa-fw fa-youtube"
+          url: "https://youtube.com/mmistakes"
+          
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+#exclude:
+#  - "*.sublime-project"
+#  - "*.sublime-workspace"
+#  - vendor
+#  - .asset-cache
+#  - .bundle
+#  - .jekyll-assets-cache
+#  - .sass-cache
+#  - assets/js/plugins
+#  - assets/js/_main.js
+#  - assets/js/vendor
+#  - Capfile
+#  - CHANGELOG
+#  - config
+#  - Gemfile
+#  - Gruntfile.js
+#  - gulpfile.js
+#  - LICENSE
+#  - log
+#  - node_modules
+#  - package.json
+#  - Rakefile
+#  - README
+#  - tmp
+
+# Defaults
+defaults:
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: single
+          read_time: true
+          comments: # true
+          share: true
+          related: true
+    # _pages
+    - scope:
+          path: ""
+          type: pages
+      values:
+          layout: single
+          author_profile: true
+    # _notebooks
+    - scope:
+          path: ""
+          type: notebooks
+      values:
+          layout: posts
+          author_profile: false
+          share: false
+
+
+
+search: true
+
+# Analytics
+analytics:
+    provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+    google:
+        tracking_id          : "G-WK9VB8B027" # Replace this with your ID, or delete
+        anonymize_ip         : false
