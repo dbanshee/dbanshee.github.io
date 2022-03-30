@@ -1,14 +1,24 @@
 ---
 header:
-    image: "assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg"
+#    image: "assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg"
     teaser: "/assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg"
 title: "Ingeniero Informatico de Coraje - I"
+classes: wide
+author_profile: true
 categories:
-    - BanStory
+    - posts
 tags: 
+    - banstory
     - ingenieroinformatico
+    - coraje
+    - banshee
+    - cyrix
+    - windows98
+    - virus
     
 ---
+
+{% include figure image_path="assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg" alt="this is a placeholder image" %}
 
 ## Parte I - Sueño, Oportunidad e Ignorancia
 
@@ -20,7 +30,7 @@ Octubre de 1998, la caja de ahorros de toda la vida de mis padres, publicitó un
 
 Perdí la cuenta de las veces que pude releer el genérico folleto hasta que lo trajeron a casa. Potente procesador de *300Mhz*, *32 MB RAM*, *CDROM 32x*, impresora a color, *Windows 98* y un completísimo paquete de software. Y llegó el dia. **10 de Noviembre de 1998**. He llegado a olvidarme de la fecha del cumpleaños de mi hermano, pero no de ésta. No es para estar orgulloso, pero es un hecho. Lucía flamante. Nada que ver con el amarillento PC del hermano de mis amigos. Semitorre blanca, monitor CRT con altavoces integrados, impresora de inyeccion, y por fin, el tablero del juego de mesa ocupó su lugar en la estantería, dejando su hueco para un teclado de verdad. La revolución en mi vida estaba a punto de comenzar.
 
-<div style="text-align:center"><img src="/assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg" /></div>
+<div style="text-align:center"><img src="../../../../assets/images/posts/ing-inf-coraje/pc_club_300xe.jpg" /></div>
 <br/>
 
 

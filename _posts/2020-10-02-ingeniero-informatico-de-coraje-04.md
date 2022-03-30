@@ -1,16 +1,24 @@
 ---
 header:
-    image: "/assets/images/posts/ing-inf-coraje/banshee.jpg"
+#    image: "/assets/images/posts/ing-inf-coraje/banshee.jpg"
     teaser: "/assets/images/posts/ing-inf-coraje/banshee.jpg"
 title: "Ingeniero Informatico de Coraje - IV"
+classes: wide
+author_profile: true
 categories:
-    - Banstory
+    - posts
 tags: 
     - banstory
     - ingenieroinformatico
+    - coraje
+    - banshee
+    - pci
     
 ---
 
+{% include figure image_path="/assets/images/posts/ing-inf-coraje/banshee.jpg" alt="this is a placeholder image" %}
+
+## Parte IV - Búsqueda y Desesperación.
 
 Durante varios meses entré en modo ahorro. Pagas, visitas a abuelos, encargos de dudosa legalidad e incluso hambre, guardando el dinero del bocadillo del instituto y pasando el día a base de mendigar bocados a unos y otros. Como si de un programa de recaudación de la TV se tratara, había conseguido el objetivo para salvarme de la obsolescencia intencionada en la que se encontraba mi *PC*. Con 32.000 pesetas que quemaban en mi pequeña caja fuerte azul podía elegir casi cualquiera de las tarjetas aceleradoras **PCI** que aparecían en los mas selectos catálogos de revistas especializadas.
 
@@ -30,7 +38,7 @@ Cuando ya no lo esperaba, recibí una llamada. Era el hermano de mis amigos, aqu
 Esta vez no hubo bicicleta, ningún riesgo en el transporte de la valiosa carga merecía la pena correr. Y al fin el momento llegó. Con una gran sonrisa, me entregó la pieza de *hardware* mas representativa de mi pasión por la informática. Tras una grisácea bolsa antiestática, se encontraba la felicidad en escasos milimetros de grosor. Al fin era mía una *Skywell Magic TwinPower 3Dfx Voodoo 2 Banshee PCI de 16 MB SGRAM*.
 
 
-<div style="text-align:center"><img src="/assets/images/posts/ing-inf-coraje/banshee.jpg" /></div>
+<div style="text-align:center"><img src="../../../../assets/images/posts/ing-inf-coraje/banshee.jpg" /></div>
 <br/>
 
 Caminé a casa literalmente escoltado por dos amigos, que me protegían de cualquier peligro externo. Cruzábamos los pasos de cebra como un solo bloque, nos alejábamos de los grupos de chavales jugando a la pelota, nos asegurábamos que nadie en un balcón se encontrara vaciando un inoportuno cubo de agua.

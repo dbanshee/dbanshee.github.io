@@ -14,6 +14,7 @@ description: ONAG Homepage
 url: https://banserver.bansheerocks.com/onag
 baseurl                  : "/onag"
 
+permalink: date
 
 host: 0.0.0.0
 port: 4050
@@ -24,20 +25,22 @@ port: 4050
 #  - https://code.jquery.com/jquery-3.2.1.min.js
 #  - /assets/js/your-custom-head-script.js
 
-include: ["_pages", "_posts", "_notebooks"]
+include: ["_posts", "_notebooks"]
 
 
 masthead_title: "Home"
 
-breadcrumbs: true  # disabled by default
-breadcrumb_home_label : "Home"
-breadcrumb_separator  : "/"
+#breadcrumbs: true  # disabled by default
+#breadcrumb_home_label : "Home"
+#breadcrumb_separator  : "/"
 
 collections:
     notebooks:
         output: true
         permalink: /:collection/:path/
-
+    #pages:
+        # output: true
+        # permalink: date
 
 social:
     type:  # Person or Organization (defaults to Person)
@@ -54,57 +57,41 @@ author:
   bio: "Proud Geek" 
   location: "Spain"
   links:
-    - label: "Gmail"
-      icon: "fab fa-fw fa-gmail"
-      url: "https://gmail.com/mmistakes"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dbanshee@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://twitter.com/mmistakes"
+      url: "https://www.linkedin.com/in/oscar-noel-amaya-garcia-51b82b31/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/dbanshee"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://youtube.com/mmistakes"
-      
+      url: "https://www.youtube.com/user/dbanshee"
       
 footer:
     links:
+        - label: "LinkedIn"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/oscar-noel-amaya-garcia-51b82b31/"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
-          url: "https://github.com/mmistakes"
+          url: "https://github.com/dbanshee"
         - label: "Youtube"
           icon: "fab fa-fw fa-youtube"
-          url: "https://youtube.com/mmistakes"
+          url: "https://www.youtube.com/user/dbanshee"
           
 # Reading Files
 include:
-  - .htaccess
-  - _pages
-#exclude:
-#  - "*.sublime-project"
-#  - "*.sublime-workspace"
-#  - vendor
-#  - .asset-cache
-#  - .bundle
-#  - .jekyll-assets-cache
-#  - .sass-cache
-#  - assets/js/plugins
-#  - assets/js/_main.js
-#  - assets/js/vendor
-#  - Capfile
-#  - CHANGELOG
-#  - config
-#  - Gemfile
-#  - Gruntfile.js
-#  - gulpfile.js
-#  - LICENSE
-#  - log
-#  - node_modules
-#  - package.json
-#  - Rakefile
-#  - README
-#  - tmp
+    - .htaccess
+    - _pages
+exclude:
+    - build.sh
+    - runDebug.sh
+    - publishApache.sh
+    - onag-homepage.service
+    - buildProduction.sh
 
 # Defaults
 defaults:
@@ -125,6 +112,7 @@ defaults:
       values:
           layout: single
           author_profile: true
+          # permalink: /:path/:basename:output_ext
     # _notebooks
     - scope:
           path: ""
@@ -140,7 +128,12 @@ search: true
 
 # Analytics
 analytics:
-    provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+    provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
     google:
         tracking_id          : "G-WK9VB8B027" # Replace this with your ID, or delete
         anonymize_ip         : false
+        
+compress_html:
+    clippings: all
+    ignore:
+        envs: development  # disable compression in dev environment

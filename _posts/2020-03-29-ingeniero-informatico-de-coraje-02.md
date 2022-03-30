@@ -1,16 +1,25 @@
 ---
 header:
-    image: "/assets/images/posts/ing-inf-coraje/mastercd.jpg"
+#    image: "/assets/images/posts/ing-inf-coraje/mastercd.jpg"
     teaser: "/assets/images/posts/ing-inf-coraje/mastercd.jpg"
 title: "Ingeniero Informatico de Coraje - II"
+classes: wide
+author_profile: true
 categories:
-    - Banstory
+    - posts
 tags: 
     - banstory
     - ingenieroinformatico
+    - coraje
+    - banshee
+    - virus
+    - internacional
     
 ---
 
+{% include figure image_path="/assets/images/posts/ing-inf-coraje/mastercd.jpg" alt="this is a placeholder image" %}
+
+## Parte II - Cruda Realidad y Ayuda Internacional
 
 Y con cara de tontos nos quedamos mirando una pantalla que parecía salida de una película mala de *hackers*. Por mas veces que aplicáramos la solución por antonomasia en este gremio, el arácnido de cara hostil aparecía tras cada intento de arranque. Con una bochornosa vergüenza, una conversación algo tensa con mi padre y ostentando el record mundial del menor tiempo en romper el aparato mas nuevo y caro de la casa, llamé de nuevo mis amigos con la esperanza que todo fuera un mal y breve recuerdo. Una tarde de sudor y promesas de que en breve todo estaría solucionado. Al menos, el problema estaba claro, los ordenadores podían enfermar... primera noticia. Si un disco fue el problema, otro parecía ser la solución. Muchos nuevos conceptos y alguna vaga explicación en una tarde de desilusiones. *Modo MS-DOS*, *antivirus*, *disco de arranque*, *tabulador*... conceptos que se acercaban al idioma oriental en aquellos momentos. Se fueron igual que llegaron pero con el compromiso de que su hermano lo solucionaría todo en un abrir y cerrar de ojos. 
 
@@ -19,7 +28,7 @@ Dias de idas y venidas, de largas tardes y palabras extrañas que a base repetic
 Y funcionó ... o casi. El ordenador arrancaba pero en una limitada gama cromática de 16 colores e iconos del tamaño de monedas de 500 pesetas. Que no cundiera el pánico, era algo normal, tan solo habia que instalar algo conocido como **driver**. Esto le decía a *Windows* exáctamente que piezas eran las que tenia el *PC* y podría hacerlas funcionar corréctamente. Estos *drivers* habitualmente venian en la colección de *CD-ROMs* que acompañaban a todo ordenador. Eran fáciles de identificar porque cada uno especificaba la marca y modelo del componente. Extráñamente yo solo tenía 2 discos con el logotipo de la marca del PC y donde no parecian estar esas piezas de *software*.
 
 
-<div style="text-align:center"><img src="/assets/images/posts/ing-inf-coraje/mastercd.jpg" /></div>
+<div style="text-align:center"><img src="../../../../assets/images/posts/ing-inf-coraje/mastercd.jpg" /></div>
 <br/>
 
 

@@ -1,6 +1,8 @@
 ---
 title: "SpaceTime Simulator"
 excerpt: "nVidia DLI - Fundamentals Of Accelerated Computing for Cuda C/C+"
+# classes: wide
+toc: true
 header:
 #  image: /assets/images/notebooks/space-time-simulator/hyperion.jpeg
   teaser: /assets/images/notebooks/space-time-simulator/hyperion.jpeg
@@ -15,6 +17,18 @@ gallery:
   - url: /assets/images/notebooks/space-time-simulator/hyperion.jpeg
     image_path: assets/images/notebooks/space-time-simulator/hyperion.jpeg
     alt: "Hyperion"
+categories:
+    - notebooks
+tags: 
+    - nvidia
+    - dli
+    - jupyter
+    - python
+    - ia
+    - deeplearning
+    - cuda
+    - machinelearning
+    
 ---
 
 {% include figure image_path="assets/images/notebooks/space-time-simulator/hyperion.jpeg" alt="this is a placeholder image" %}
@@ -30,7 +44,7 @@ Esta práctica voluntaria se compone de este cuaderno *Jupyter* y el fichero **c
 
 Año 2035. Tras  más de una década de increibles avances en inteligencia artificial gracias a revolución tecnológica de *nVidia* con sus *GPUs* cuánticas, los físicos de todo el mundo pudieron realizar experimientos y descubrimientos sin precedentes. Se llegó a controlar la distorsión del *espacio-tiempo* consiguiendo abrir portales entre universos paralelos. Durante varios años la humanidad se lanzó a la exploración espacial en busca de nuevos mundos habitables.
 
-<div style="text-align:center"><img src="../../assets/images/notebooks/space-time-simulator/hyperion.jpeg" /></div>
+<div style="text-align:center"><img src="../../../assets/images/notebooks/space-time-simulator/hyperion.jpeg" /></div>
 <br/>
 
 Mientras la tripulación del crucero de exploración **Hyperion VII** se encontraba atravesando un grupo de asteroides en el universo **Volta-773**, un error de precisión de coma flotante desata una reacción en cadena que origina una generaciónes espontáneas de agujeros negros que alteran violentamente sus órbitas haciendo el retorno al portal una tarea imposible.
@@ -266,7 +280,7 @@ except KeyboardInterrupt:
 ```
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_11_0.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_11_0.png)
 
 
 ## Benchmark
@@ -794,31 +808,31 @@ for i in range(0, BENCHMARKS_TYPES):
 ```
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_0.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_0.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_1.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_1.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_2.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_2.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_3.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_3.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_4.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_4.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/(output_18_5.png)
+![png](../../../assets/images/notebooks/space-time-simulator/(output_18_5.png)
 
 
 
-![png](../../assets/images/notebooks/space-time-simulator/output_18_6.png)
+![png](../../../assets/images/notebooks/space-time-simulator/output_18_6.png)
 
 
 ## Análisis de Resultados

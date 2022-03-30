@@ -1,0 +1,23 @@
+[Unit]
+Description=ONAG Homepage
+After=syslog.target
+After=network.target
+
+[Service]
+# Modify these two values and uncomment them if you have
+# repos with lots of files and get an HTTP error 500 because
+# of that
+###
+User=banshee
+Group=banshee
+StandardOutput=append:/var/log/banserver.log
+StandardError=append:/var/log/banserver.log
+WorkingDirectory=/usr/local/git/onag-homepage
+
+Environment="JEKYLL_ENV=production"
+Environment="PATH=/home/banshee/gems/bin"
+Environment="GEM_HOME=/home/banshee/gems"
+ExecStart=/usr/local/bin/jekyll serve -s /usr/local/git/onag-homepage/ -d /usr/local/git/onag-homepage/_site --verbose
+Restart=always
+[Install]
+WantedBy=multi-user.target

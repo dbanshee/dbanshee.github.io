@@ -1,16 +1,26 @@
 ---
 header:
-    image: "/assets/images/posts/ing-inf-coraje/AGP_slot.jpg"
+#    image: "/assets/images/posts/ing-inf-coraje/AGP_slot.jpg"
     teaser: "/assets/images/posts/ing-inf-coraje/AGP_slot.jpg"
 title: "Ingeniero Informatico de Coraje - III"
+classes: wide
+author_profile: true
 categories:
-    - Banstory
+    - posts
 tags: 
     - banstory
     - ingenieroinformatico
+    - coraje
+    - banshee
+    - AGP
+    - PCI
+    - GPU
     
 ---
 
+{% include figure image_path="/assets/images/posts/ing-inf-coraje/AGP_slot.jpg" alt="this is a placeholder image" %}
+
+## Parte III - El Pastel
 
 Pasaron dias y meses empapándome cual esponja los entresijos de *Windows 98*. Después de una temporada haciendo mi dia a dia con *Comandante Norton*, manejarme en este entorno visual se hacia bastante intuitivo. La enciclopedia *Larousse* de *Circulo de Lectores* por catálogo que tantos años habia tardado en coleccionar, de repente parecía obsoleta ante la versión electrónica de *Salvat*. Audios, videos y la capacidad de saltar de un artículo a otro hacian sentir que todo el conocimiento del mundo estaba bajo la yema de mis dedos en apenas los diez segundos que tardaba el *CD-ROM* de *32X* en despegar y leer la información necesaria. Mucho me quedaba aun por ver ante la revolución de *Internet* que estaba por llegar.
 
@@ -24,7 +34,7 @@ Un proceso de investigación que a dia de hoy no llevaría mas de 20 segundos tr
 
 Como siempre por entonces, la respuesta vino del hermano mayor de mis amigos, que comenzó a trabajar en una las tiendas de Informática que tanto proliferaron a comienzos de los años 2000. Mi problema era la **Tarjeta Gráfica**. Una placa de circuito impreso que se encontraba en el interior de la torre, la cual era posible sustituir en pocos minutos. Sin embargo, mi *PC* contaba con una gráfica integrada en la *placa base* con unas casi nulas capacidades 3D y sin memoria propia. El mercado era amplio y variado en cuanto a precios y características como podia comprobar en las páginas finales de mis revistas que incluian extensos listados de componentes y precios. Por suerte, para ejecutar con una mínima calidad no necesitaba la mejor de las **aceleradoras 3D** posibles. Una modesta *Intel 740* como las que comencé a identificar en los PCs de mis amigos era suficiente y su precio rondaba las *5000 pesetas*. Unos cuantos meses ahorrando *la paga* y algún que otro *chanchullo* me bastó para plantarme en mi tienda de informatica de confianza semitorre en mano. Por fin despues de tanto tiempo de investigación y espectación volvería a tener un PC a la última. No podia imaginar que se avecinaba otro desengaño mas.
 
-<div style="text-align:center"><img src="/assets/images/posts/ing-inf-coraje/AGP_slot.jpg" /></div>
+<div style="text-align:center"><img src="../../../../assets/images/posts/ing-inf-coraje/AGP_slot.jpg" /></div>
 <br/>
 
 Al parecer era imposible instalar no solo la reservada *Intel 740*, sino casi cualquier tarjeta gráfica actual. Mi placa base no contaba con ranura **AGP** que era el estandard actual. ¿Cómo podia ser eso posible?. No es que el PC no fuera nuevo, es que aun quedaban **años** para completar su pago financiado. Pero el problema era incluso mas profundo. Si el todo radicaba en la placa base, ¿cuánto costaba cambiarla por otra con ese puerto de aceleración gráfico?. Y ahi fue cuando descubrimos el **gran pastel** que fue esta compra. No existian placas base con puerto *AGP* que fueran capaces de reutilizar el resto de componentes. Cambiar la placa base, implicaria cambiar tambien el procesador. Mientras el estandard actual era el **Slot A** de *Intel* para **Pentium II** y **Celeron** o el **Super Socket 7** para sus cohetáneos de **AMD**. Mi placa base contaba con un **Socket 7**, montando un desconocido procesador *Intel compatible* **Cyrix M2**. Un procesador de una generación anterior en completa descatalogación y desuso. Para colmo, aun siendo un modelo capaz de funcionar a *300 Mhz*, esta placa no la dejaba pasar de los *266 Mhz*. Ni siquiera la *memoria RAM* era aprovechable. Mientras todas las placas base actuales utilizaban **SD-RAM**, mi placa montaba 32MB de memoria **EDO-RAM**, un formato tan obsoleto como el resto de componentes y con la totalidad de zócalos ocupados, con lo que tampoco sería posible su ampliación en un futuro e incluso presente que empezaba a mostrarse limitado con un continuo y desesperante *swapeo*.
