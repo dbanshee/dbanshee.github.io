@@ -11,8 +11,8 @@ main:
     url: /certifications
   - title: "Proyectos"
     url: /projects
-  - title: "Intereses"
-    url: /interests
+#  - title: "Intereses"
+#    url: /interests
     
     
 # Custom Sidebar -> apply with sidebard option on pages
