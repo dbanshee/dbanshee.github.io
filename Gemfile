@@ -5,8 +5,7 @@ source "https://rubygems.org"
 # gem "rails"
 gem "jekyll"
 gem "jekyll-theme-slate"
-gem "minimal-mistakes-jekyll"
 gem "jekyll-jupyter-notebook"
 gem "jekyll-include-cache", group: :jekyll_plugins
 
-# gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
