@@ -16,16 +16,6 @@ Ingeniero en Informática
 
 <a href="mailto:elcorreoquequieres@correo.com">dbanshee@gmail.com</a>
 
-<div id="webaddress">
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
-
-<br/>
-
-# Currently
-
-Under Construction
-
 # Specialized in
 
 Linux, Java, Parallel Computing.
@@ -33,5 +23,5 @@ Linux, Java, Parallel Computing.
 
 # Interests
 
-Computer Science, Machine Learning, IA, Open Source, Enginnering, Electronics
+Computer Science, Machine Learning, IA, Open Source, Enginnering, Electronics, Music
 
