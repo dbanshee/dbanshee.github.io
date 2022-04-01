@@ -8,6 +8,7 @@ minimal_mistakes_skin: "dirt"
 
 plugins:
   - jekyll-jupyter-notebook
+  - jekyll-include-cache
 
 locale : "es-ES"
 title: ONAG Homepage

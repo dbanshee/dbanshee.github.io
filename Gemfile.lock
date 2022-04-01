@@ -116,6 +116,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-include-cache
   jekyll-jupyter-notebook
   jekyll-theme-slate
   minimal-mistakes-jekyll
