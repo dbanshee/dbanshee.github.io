@@ -2,7 +2,7 @@
 #theme: minima
 
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 remote_theme : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "dirt"
 
@@ -14,7 +14,7 @@ locale : "es-ES"
 title: ONAG Homepage
 description: ONAG Homepage
 url: https://banserver.bansheerocks.com/onag
-baseurl                  : "/onag"
+#baseurl                  : "/onag"
 
 permalink: date
 
@@ -132,7 +132,7 @@ search: true
 analytics:
     provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
     google:
-        tracking_id          : "G-WK9VB8B027" # Replace this with your ID, or delete
+        tracking_id          : "G-F5VN62VQ94" # Replace this with your ID, or delete
         anonymize_ip         : false
         
 compress_html:
