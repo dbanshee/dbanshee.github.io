@@ -80,7 +80,7 @@ plt.show()
 ```
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_4_0.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_4_0.png)
 
 
 ## Red Neuronal
@@ -140,11 +140,11 @@ plt.show()
 ```
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_8_0.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_8_0.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_8_1.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_8_1.png)
 
 
 ### Función de Coste. Error Cuadrático medio
@@ -193,7 +193,7 @@ def vector_mult_cuda(A, B):
 
 *Numba* permite la definición de **Kernels Cuda** directamente desde código *Python*. El compilador **JIT** (*Just In Time*) compilará este código nativamente para **Cuda** y lo cacheará para futuras ejecuciones. El uso y las utilerias son similares a las librerías en *C/C++* pero de un modo mas *Pythonico*. Incluye también algunas funciones de mas alto nivel, como **grid** o **gridsize** que simplifican el cálculo del elemento a procesar del *grid*, pero que he preferido evitar y realizar el cálculo manualmente para mostrar la similitud con la vertiente original.
 
-<div style="text-align:center"><img src="../../../assets/images/notebooks/numba-neural-net/numba.png" /></div>
+<div style="text-align:center"><img src="../../../../assets/images/notebooks/numba-neural-net/numba.png" /></div>
 <br/>
 
 Los *kernels* implementan la funcionalidad necesaria para realizar el *Forward Pass* y *Back Propagation* necesarios para la inferencia y entrenamiento de la red neuronal. Es posible optimizar estos kernels ya que se apoyan en algunas operaciones previas, que si bien se ejecutan en la *GPU*, podrian ejecutarse en el mismo paso. No obstante como ya se ha comentado y debido al objetivo didáctico en el uso de varias familias de funciones de *Numba*, se mantiene así.
@@ -472,55 +472,55 @@ print("Loss: {}".format(closs)[1])
 ```
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_0.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_0.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_1.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_1.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_2.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_2.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_3.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_3.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_4.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_4.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_5.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_5.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_6.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_6.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_7.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_7.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_8.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_8.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_9.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_9.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_10.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_10.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_11.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_11.png)
 
 
 
-![png](../../../assets/images/notebooks/numba-neural-net/output_18_12.png)
+![png](../../../../assets/images/notebooks/numba-neural-net/output_18_12.png)
 
 
     o
@@ -536,7 +536,7 @@ Destacar también que *Numba* no es la unica mánera de utilizar *Cuda* dede *Py
 
 ## Anexo 1 - Las matemáticas de una red neuronal
 
-<center><img src='../../../assets/images/notebooks/numba-neural-net/neurona.png'></center>
+<center><img src='../../../../assets/images/notebooks/numba-neural-net/neurona.png'></center>
 
 Se define el cálculo de una neurona en la capa **L** como la suma ponderada **Z** de sus pesos por las entradas (la salida de la capa anterior):
 $$

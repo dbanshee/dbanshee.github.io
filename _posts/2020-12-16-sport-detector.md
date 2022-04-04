@@ -15,7 +15,7 @@ gallery:
   - url: /assets/images/notebooks/sports-detector/keras.png
     image_path: assets/images/notebooks/sports-detector/keras.png
     alt: "Numba"
-Cross-validatedCross-validatedCross-validatedCross-validatedCross-validatedcategories:
+categories:
     - notebooks
 tags: 
     - nvidia
@@ -121,7 +121,6 @@ def processDataset(path, limit=None):
                 cnt += 1
     return mImgDir
 
-
 # Process Dataset
 IMG_DATASET = processDataset(DIR_IMAGES, IMAGE_LIMIT)
 
@@ -131,7 +130,7 @@ for key, value in IMG_DATASET.items():
     print('  [{}] -> {}'.format(key, len(value)))
     imgCnt += len(value)
 print("\nTotal Images: {}".format(imgCnt))
-```
+
 
     Dataset Directory : /home/banshee/./event_img/ ...
     Image Summary:
@@ -146,7 +145,7 @@ print("\nTotal Images: {}".format(imgCnt))
       [snowboarding] -> 190
     
     Total Images: 1574
-
+```
 
 
 ```python
@@ -159,7 +158,7 @@ for key, value in IMG_DATASET.items():
 ```
 
 
-![png](../../../assets/images/notebooks/sports-detector/output_6_0.png)
+![png](../../../../assets/images/notebooks/sports-detector/output_6_0.png)
 
 
 ### Normalización de Datos
@@ -439,7 +438,7 @@ model.save("sports_mnist.h5py")
 ```
 
 
-![png](../../../assets/images/notebooks/sports-detector/output_21_0.png)
+![png](../../../../assets/images/notebooks/sports-detector/output_21_0.png)
 
 
     Train loss: 0.49041501511364727
@@ -491,7 +490,7 @@ if len(correct) > 0:
 
 
 
-![png](../../../assets/images/notebooks/sports-detector/output_26_1.png)
+![png](../../../../assets/images/notebooks/sports-detector/output_26_1.png)
 
 
 
@@ -512,7 +511,7 @@ if len(incorrect) > 0:
 
 
 
-![png](../../../assets/images/notebooks/sports-detector/output_27_1.png)
+![png](../../../../assets/images/notebooks/sports-detector/output_27_1.png)
 
 
 ### Carga y Test
@@ -566,7 +565,7 @@ print("Image corresponds to sport: [{}]".format(predictionLabel))
 
 
 
-![png](../../../assets/images/notebooks/sports-detector/output_30_1.png)
+![png](../../../../assets/images/notebooks/sports-detector/output_30_1.png)
 
 
 ## Conlusiones
