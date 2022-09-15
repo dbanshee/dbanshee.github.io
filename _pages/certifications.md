@@ -11,6 +11,12 @@ header:
 ---
 
 
+###  __Abatic Certified Associate for PostgreSQL__ | _Abatic_
+`2022`
+
+- [Credencial](https://www.credly.com/badges/616df56b-985b-41f3-a4d9-ad833834c149)
+
+-----------------------------------------------
 
 ###  __Introduccion a la Produccion Musical - Nico Astegiano__ | _Domestika_
 `2022`

@@ -14,7 +14,7 @@ __Oscar Noel Amaya Garcia__
 Ingeniero en Informática
 
 
-<a href="mailto:elcorreoquequieres@correo.com">dbanshee@gmail.com</a>
+<a href="mailto:dbanshee@gmail.com">dbanshee@gmail.com</a>
 
 # Specialized in
 

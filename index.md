@@ -13,4 +13,4 @@ Me invade la necesidad de saber como funciona por dentro cada tecnología. Desde
 
 Actualmente estoy profundizando en __Inteligencia Articial__ y __Deep Learning__. He cursado varios cursos y certificaciones en __nVidia Deep Learning Institute__ de manera presencial a través de la Universidad de Málaga. Puedes ver algunas de mis divertidos trabajos __[aqui]({% link _pages/tags-archive.md %}#dli)__. Entre mis proyectos actuales esta un vehiculo autónomo sobre la base de __nVidia JetRacer__
 
-Siéntete libre de [contactar](mailto: kbosko@cross-validated.com) si mi contenido te parece interesante.
+Siéntete libre de [contactar](mailto: dbanshee@gmail.com) si mi contenido te parece interesante.
